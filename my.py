@@ -95,7 +95,7 @@ plt.subplot(121)
 plt.imshow(tiles_packed[..., 0])
 plt.subplot(122)
 plt.imshow(merged_patch_r)
-out_dumb = RAW2RGB(merged_patch)
+# out_dumb = RAW2RGB(merged_patch)
 # out_dumb = cv2.cvtColor(out_dumb, cv2.COLOR_RGB2BGR)
 # cv2.imwrite("./merged_{}.png".format(args.c), out_dumb.astype(np.uint8))
 
